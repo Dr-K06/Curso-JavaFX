@@ -31,7 +31,7 @@ public class MainController {
     protected void onCalcularIMCClick() {
         DecimalFormat df = new DecimalFormat();
       this.pessoa.setNome(this.txtnome.getText());
-      this.pessoa.setAltura(Float.parseFloat( this.txtPeso.getText()));
+      this.pessoa.setAltura(Float.parseFloat( this.txtAltura.getText()));
       this.pessoa.setPeso(Float.parseFloat( this.txtPeso.getText()));
 
         df.applyPattern("#0.00");

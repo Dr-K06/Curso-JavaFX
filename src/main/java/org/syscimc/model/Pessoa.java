@@ -64,7 +64,7 @@ public class Pessoa {
     }
 
     public float calcularimc(){
-        this.imc = this.peso /(this.altura * this.altura);
+        this.imc = this.peso / (this.altura * this.altura);
 
         return this.imc;
     }
