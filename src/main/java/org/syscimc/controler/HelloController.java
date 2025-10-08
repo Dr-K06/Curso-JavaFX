@@ -1,4 +1,4 @@
-package org.syscimc;
+package org.syscimc.controler;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
